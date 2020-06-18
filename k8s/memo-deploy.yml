@@ -17,7 +17,7 @@ spec:
             - name: DISCORD_TOKEN
               valueFrom:
                   secretKeyRef:
-                      name: discord-config
+                      name: discord-config-memo
                       key: memo-token
             - name: DB_HOST
               valueFrom:
